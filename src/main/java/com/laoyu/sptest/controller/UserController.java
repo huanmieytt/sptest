@@ -16,4 +16,7 @@ public class UserController {
     public String getUserById(@PathVariable int id){
         return userService.getUserById(id);
     }
+    public String hello(){
+        return "hello world";
+    }
 }
